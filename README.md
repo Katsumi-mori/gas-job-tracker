@@ -7,10 +7,11 @@
 - 提出期限3日前にリマインド
 - 提出期限3日前にSlack通知
 - 時間トリガーで毎朝自動実行
+- Googleフォーム送信時にSlack通知（onFormSubmitトリガー）
 
 ## ファイル
-- `sendTestMail.gs` - 送信テスト用
-- 全関数を1ファイルにまとめています
+- `sendTestMail.gs` - 選考管理（メール・Slack通知）
+- `onFormSubmit.gs` - フォーム送信時の自動Slack通知 ← New!
 
 ## 使い方
 1. Googleスプレッドシートを作成
