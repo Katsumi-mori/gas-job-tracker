@@ -10,8 +10,9 @@
 - Googleフォーム送信時にSlack通知（onFormSubmitトリガー）
 
 ## ファイル
-- `sendTestMail.gs` - 選考管理（メール・Slack通知）
-- `onFormSubmit.gs` - フォーム送信時の自動Slack通知 ← New!
+- `mailNotifier.gs` - メール通知関連（sendTestMail, sendTodayMail, sendUrgentMail）
+- `slackNotifier.gs` - Slack通知関連（sendSlackTest, sendUrgentSlack）
+- `onFormSubmit.gs` - フォーム送信時の自動Slack通知
 
 ## 動作環境
 - Google Workspaceアカウント
