@@ -8,11 +8,13 @@
 - 提出期限3日前にSlack通知
 - 時間トリガーで毎朝自動実行
 - Googleフォーム送信時にSlack通知（onFormSubmitトリガー）
+- スプシの次回日時をGoogleカレンダーに自動登録（重複スキップ・30分前リマインダー付き）
 
 ## ファイル
 - `mailNotifier.gs` - メール通知関連（sendTestMail, sendTodayMail, sendUrgentMail）
 - `slackNotifier.gs` - Slack通知関連（sendSlackTest, sendUrgentSlack）
 - `onFormSubmit.gs` - フォーム送信時の自動Slack通知
+- `calendarSync.gs` - Googleカレンダー自動登録（addToCalendar）
 
 ## 動作環境
 - Google Workspaceアカウント
