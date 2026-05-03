@@ -13,6 +13,11 @@
 - `sendTestMail.gs` - 選考管理（メール・Slack通知）
 - `onFormSubmit.gs` - フォーム送信時の自動Slack通知 ← New!
 
+## 動作環境
+- Google Workspaceアカウント
+- Slackワークスペース
+- Gmail
+
 ## 使い方
 1. Googleスプレッドシートを作成
 2. 拡張機能 → Apps Script でスクリプトエディタを開く
